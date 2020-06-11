@@ -31,18 +31,18 @@ ga('ec:setAction','checkout', {
 });
 
 
-analytics.track('Checkout Step Completed', {
-  checkout_id: 'order_1',
+rudderanalytics.track('Checkout Step Completed', {
+  checkout_id: '' + localStorage.getItem("rudder_transactionId"),
   step: 2
 });
 
 rudderanalytics.track('Checkout Step Viewed', {
-  checkout_id: 'order_1',
+  checkout_id: '' + localStorage.getItem("rudder_transactionId"),
   step: 3,
 });
 
-analytics.track('Checkout Step Completed', {
-  checkout_id: 'order_1',
+rudderanalytics.track('Checkout Step Completed', {
+  checkout_id: '' + localStorage.getItem("rudder_transactionId"),
   step: 3,
   paymentMethod: '3D Secure'
 });

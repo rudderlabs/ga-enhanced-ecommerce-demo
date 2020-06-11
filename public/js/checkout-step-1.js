@@ -32,9 +32,12 @@ ga('ec:setAction','checkout', {
 
 // here viewing the basket is checkout step 1
 //breaking it to 3 steps, checkout started, checkout step viewed ??(confused with step 1) and checkout step completed with options
+var date = new Date();
+localStorage.setItem("rudder_transactionId", date.getMonth().toString() + date.getDate().toString() + date.getHours().toString() + date.getMinutes().toString());
+ 
 
 rudderanalytics.track('Checkout Started', {
-  order_id: 'order_1',
+  order_id: '' + localStorage.getItem("rudder_transactionId"),
   value: 31.98,
   revenue: 31.98,
   shipping: 4.00,
@@ -94,6 +97,6 @@ rudderanalytics.track('Checkout Started', {
 });
 
 rudderanalytics.track('Checkout Step Viewed', {
-  checkout_id: 'order_1',
+  checkout_id: '' + localStorage.getItem("rudder_transactionId"),
   step: 1,
 });
