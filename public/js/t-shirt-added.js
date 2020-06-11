@@ -5,3 +5,21 @@ ga('ec:addProduct', {
 });
 
 ga('ec:setAction', 'add');
+
+
+rudderanalytics.track('Product Added', {
+  product_id: 'product-t-shirt',
+  sku: 'sku-2',
+  category: 'Merch',
+  name: 'T-Shirt',
+  brand: 'Levis',
+  variant: 'White',
+  price: 12.99,
+  quantity: 1,
+  currency: 'GBP',
+  position: 2,
+  value: 12.99,
+  typeOfProduct: 'Shirt',
+  url: 'https://www.example.com/product/t-shirt',
+  image_url: 'https://www.example.com/product/t-shirt.jpg'
+});

@@ -3,5 +3,14 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-1946445-14', 'auto');
+ga('create', 'UA-143161493-13', 'auto');
 ga('require', 'ec');
+
+
+rudderanalytics=window.rudderanalytics=[];
+for(var methods=["load","page","track","alias","group","identify","ready","reset"],i=0;i<methods.length;i++){var method=methods[i];rudderanalytics[method]=function(d){return function(){rudderanalytics.push([d,...arguments])}}(method)}
+rudderanalytics.load("YOUR_WRITE_KEY","DATA_PLANE_URI")
+
+//load the Rudder sdk here!
+
+

@@ -6,3 +6,22 @@ ga('ec:addProduct', {
 });
 
 ga('ec:setAction', 'detail');
+
+
+
+rudderanalytics.track('Product Viewed', {
+  product_id: 'product-bacon-jam',
+  sku: 'sku-1',
+  category: 'Merch',
+  name: 'Food/Drink',
+  brand: '',
+  variant: 'Extra topped',
+  price: 3.00,
+  quantity: 2,
+  currency: 'GBP',
+  position: 1,
+  value: 6.00,
+  typeOfProduct: 'Food',
+  url: 'https://www.example.com/product/bacon-jam',
+  image_url: 'https://www.example.com/product/bacon-jam.jpg'
+});
