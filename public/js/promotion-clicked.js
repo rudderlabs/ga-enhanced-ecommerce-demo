@@ -9,7 +9,9 @@ ga("ec:addPromo", {
 ga('ec:setAction', 'promo_click');
 
 
-rudderanalytics.track('Promotion Viewed', {
+rudderanalytics.track('Promotion Clicked', {
+  category: 'Promotions',
+  label: 'T-shirt promotion clicked',
   promotion_id: 'tshirt-offer',
   creative: 'offer banner',
   name: 'Offer promo',

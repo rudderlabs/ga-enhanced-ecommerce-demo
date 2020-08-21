@@ -86,7 +86,6 @@ rudderanalytics.track('Checkout Started', {
       price: 12.99,
       quantity: 1,
       currency: 'GBP',
-      position: 1,
       value: 12.99,
       coupon: 'APPARELSALE',
       typeOfProduct: 'Shirt',

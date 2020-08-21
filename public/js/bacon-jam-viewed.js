@@ -14,7 +14,7 @@ rudderanalytics.track('Product Viewed', {
   sku: 'sku-1',
   category: 'Merch',
   name: 'Food/Drink',
-  brand: '',
+  brand: 'Kissan',
   variant: 'Extra topped',
   price: 3.00,
   quantity: 2,

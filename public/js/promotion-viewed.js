@@ -8,6 +8,8 @@ ga("ec:addPromo", {
 
 
 rudderanalytics.track('Promotion Viewed', {
+  category: 'Promotions',
+  label: 'T-shirt promotion viewed',
   promotion_id: 'tshirt-offer',
   creative: 'offer banner',
   name: 'Offer promo',

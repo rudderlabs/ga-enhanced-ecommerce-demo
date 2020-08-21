@@ -32,7 +32,7 @@ rudderanalytics.track('Product List Viewed', {
       price: 3.00,
       position: 1,
       category: 'Food/Drink',
-      typeOfProduct: 'Food',
+      typeOfProduct: 'Jam',
       url: 'https://www.example.com/products/bacon-jam',
       image_url: 'https://www.example.com/product/bacon-jam.jpg'
     },

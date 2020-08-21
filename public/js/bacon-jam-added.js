@@ -21,7 +21,7 @@ rudderanalytics.track('Product Added', {
   currency: 'GBP',
   position: 1,
   value: 6.00,
-  typeOfProduct: 'Food',
+  typeOfProduct: 'Jam',
   url: 'https://www.example.com/product/bacon-jam',
   image_url: 'https://www.example.com/product/bacon-jam.jpg'
 });

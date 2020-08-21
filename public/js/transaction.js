@@ -91,7 +91,7 @@ rudderanalytics.track('Order Completed', {
       price: 12.99,
       quantity: 1,
       currency: 'GBP',
-      position: 1,
+      position: 3,
       value: 12.99,
       coupon: 'APPARELSALE',
       typeOfProduct: 'Shirt',
