@@ -1,26 +1,28 @@
 ## Google Analytics Enhanced Ecommerce Demo
 
-Skeleton store to test Google Analytics Enhanced Ecommerce.
+This repository contains a skeleton store to test Google Analytics Enhanced Ecommerce.
 
 ### Usage
 
-Requirements:
+The requirements are:
 
 - NPM
 - Ruby
 
-Installation:
+### Installation:
 
-```npm install```
+- Run the following commands:
 
-```gem install bundler && bundle install```
+-- ```npm install```
 
-To build (and watch) source files:
+-- ```gem install bundler && bundle install```
 
-`gulp`
+- To build (and watch) source files: `gulp`
 
-To run:
+- To run: `rackup`
 
-`rackup`
+- Then visit: http://localhost:9292/
 
-Then visit: http://localhost:9292/
+## Contact Us
+
+If you come across any issues while configuring or using this repo, please feel free to start a conversation on our [Slack](https://resources.rudderstack.com/join-rudderstack-slack) channel. We will be happy to help you.
